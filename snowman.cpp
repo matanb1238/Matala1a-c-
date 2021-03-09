@@ -101,9 +101,7 @@ std::string ariel::snowman(long i) {
     else if(str.at(3)=='4'){
         string += "-)\n";
     }
-    if(str.at(5)=='2'){
-        string += "/\n";
-    }
+    
 
 
     if(str.at(4)=='1'){
@@ -140,6 +138,9 @@ std::string ariel::snowman(long i) {
     }
     else if(str.at(5)=='4'){
         string += " )\n";
+    }
+    else if(str.at(5)=='2'){
+        string += ")\n";
     }
 
 
